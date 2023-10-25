@@ -8,7 +8,7 @@ const Tours = () => {
       <Title title="featured" subTitle="Tours" />
       <div className="section-center featured-center">
         {tourCards.map((tourData) => {
-          const { date, title, text, id, icon, country, price, days, image } =
+          const { date, title, text, id, country, price, days, image } =
             tourData;
           return (
             <article className="tour-card" key={id}>
