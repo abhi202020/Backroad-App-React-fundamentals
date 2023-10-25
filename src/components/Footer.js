@@ -19,7 +19,12 @@ const Footer = () => {
         {dataIcon.map((iconLink) => {
           return (
             <li key={iconLink.id}>
-              <a href={iconLink.href} target="_blank" className="footer-icon">
+              <a
+                href={iconLink.href}
+                target="_blank"
+                rel="noreferrer"
+                className="footer-icon"
+              >
                 <i className={iconLink.icon}></i>
               </a>
             </li>
